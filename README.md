@@ -32,9 +32,13 @@ Two statistical tests are applied to go beyond visual analysis:
 
 Project Workflow
 •	Data Import & Exploration — load CSV, inspect shape, data types, sample rows
+
 •	Data Cleaning — remove null Closed Date rows, parse datetimes, fill missing City values
+
 •	Feature Engineering — compute Request_Closing_Time in seconds
+
 •	EDA & Visualizations — bar charts, hexbin maps, stacked charts, cross-tabulations
+
 •	Statistical Testing — Chi-Square and Kruskal-Wallis tests
 
 Tech Stack
