@@ -16,16 +16,20 @@ Coverage	All 5 NYC Boroughs (Manhattan, Brooklyn, Queens, Bronx, Staten Island)
 Unique Points & Key Highlights
 1. Engineered Efficiency Metric
 A custom Request_Closing_Time feature is calculated as the difference between Closed Date and Created Date (in seconds), enabling precise measurement of how long each city agency takes to resolve complaints — a metric not present in the raw dataset.
-2. Missing Value Analysis
+
+3. Missing Value Analysis
 A dedicated missing value bar chart across all 53 columns reveals that school-related and transport-specific fields (Bridge, Ferry, Vehicle) are nearly entirely null, while core fields like Unique Key and Complaint Type are fully populated — guiding smart data cleaning decisions.
-3. Geographic Complaint Mapping
+
+5. Geographic Complaint Mapping
 Scatter and hexbin plots of Brooklyn complaints using latitude and longitude coordinates visualize spatial concentration of service requests — identifying hotspot neighborhoods within the borough.
-4. City-Level Complaint Profiling
+
+7. City-Level Complaint Profiling
 Cross-tabulation and stacked bar charts compare the top 5 complaint types across the top 6 cities, revealing distinct urban patterns:
 •	Brooklyn & Bronx: dominated by Blocked Driveway and Illegal Parking
 •	Manhattan (New York): leads in Noise - Commercial and Noise - Street/Sidewalk
 •	Staten Island: disproportionately high Derelict Vehicle complaints
-5. Statistical Hypothesis Testing
+
+9. Statistical Hypothesis Testing
 Two statistical tests are applied to go beyond visual analysis:
 •	Chi-Square Test: confirms whether complaint type and city are significantly related (p < 0.05)
 •	Kruskal-Wallis Test: a non-parametric test to determine if response times vary significantly across complaint types — robust to non-normal distributions
