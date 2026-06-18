@@ -39,9 +39,9 @@ Project Workflow
 
 Tech Stack
 •	Python 3
-•	pandas — data manipulation and aggregation
-•	numpy — numerical operations
-•	matplotlib & seaborn — visualizations
+•	pandas       — data manipulation and aggregation
+•	numpy         — numerical operations
+•	matplotlib & seaborn   — visualizations
 •	scipy — statistical testing (chi2_contingency, kruskal)
 
 Key Findings
